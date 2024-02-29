@@ -3,7 +3,7 @@
 // import TheWelcome from './components/TheWelcome.vue'
 import Announcement from './components/Announcement.vue'
 import NavMenu from './components/NavMenu.vue'
-
+import Banner from './components/Banner.vue'
 </script>
 
 <template>
@@ -12,7 +12,7 @@ import NavMenu from './components/NavMenu.vue'
     <NavMenu />
   </header>
   <main>
-    
+    <Banner />
   </main>
   <footer></footer>
 </template>
