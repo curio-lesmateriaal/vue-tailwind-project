@@ -1,4 +1,7 @@
-<script></script>
+<script setup >
+    import CartIcon from './CartIcon.vue' 
+
+</script>
 
 <template>
     <div class="bg-primary p-2">
@@ -14,10 +17,7 @@
                     <li class=""><a href="#">Donate</a></li>
                     <li class=""><a href="#">Contact</a></li>
                 </ul>
-                <div class="cart relative bg-black p-1 w-14 rounded-lg">
-                    <div class="counter rounded-full absolute -right-2 -top-2 text-black bg-white w-6 text-center">0</div>
-                    <img class="w-6 h-6 mx-auto" src="../assets/cart.svg" alt="">
-                </div>
+                <CartIcon />
             </div>
             
         </div>
