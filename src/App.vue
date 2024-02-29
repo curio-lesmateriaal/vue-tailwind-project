@@ -12,7 +12,16 @@ import Banner from './components/Banner.vue'
     <NavMenu />
   </header>
   <main>
-    <Banner />
+    <Banner 
+      layout="right"
+      title="Nieuwe titel voor deze banner"
+      text="Dit is de tekst voor mijn nieuwe banner!!"/>
+    
+    <Banner
+      title="Dit is mijn tweede banner"
+      text="Dit is de tekst voor mijn tweede banner" />
+
+
   </main>
   <footer></footer>
 </template>
